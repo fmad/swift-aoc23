@@ -37,7 +37,7 @@ class Part: Identifiable {
     }
 }
 
-class Puzzle: Identifiable {
+class Puzzle: Identifiable,ObservableObject {
     var id = UUID()
     var day: Int
     var title: String

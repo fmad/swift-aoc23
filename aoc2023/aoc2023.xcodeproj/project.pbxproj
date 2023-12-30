@@ -61,7 +61,6 @@
 		001CA93D2B404A54004A5230 /* t10.1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001CA9282B404A53004A5230 /* t10.1.txt */; };
 		00338D7B2B4051DA00D60149 /* Puzzles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00338D7A2B4051DA00D60149 /* Puzzles.swift */; };
 		00338D7D2B407A2D00D60149 /* PuzzleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00338D7C2B407A2D00D60149 /* PuzzleDetail.swift */; };
-		00338D7F2B40A3F700D60149 /* PuzzleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00338D7E2B40A3F700D60149 /* PuzzleStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,7 +148,6 @@
 		00338D792B404F6900D60149 /* t25.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = t25.txt; sourceTree = "<group>"; };
 		00338D7A2B4051DA00D60149 /* Puzzles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzles.swift; sourceTree = "<group>"; };
 		00338D7C2B407A2D00D60149 /* PuzzleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleDetail.swift; sourceTree = "<group>"; };
-		00338D7E2B40A3F700D60149 /* PuzzleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,7 +202,6 @@
 				001CA8E02B4049CA004A5230 /* data */,
 				001CA8B52B403A63004A5230 /* aoc2023App.swift */,
 				001CA8B72B403A63004A5230 /* ContentView.swift */,
-				00338D7E2B40A3F700D60149 /* PuzzleStore.swift */,
 				00338D7C2B407A2D00D60149 /* PuzzleDetail.swift */,
 				00338D7A2B4051DA00D60149 /* Puzzles.swift */,
 				001CA8B92B403A65004A5230 /* Assets.xcassets */,
@@ -483,7 +480,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				00338D7B2B4051DA00D60149 /* Puzzles.swift in Sources */,
-				00338D7F2B40A3F700D60149 /* PuzzleStore.swift in Sources */,
 				001CA8B82B403A63004A5230 /* ContentView.swift in Sources */,
 				00338D7D2B407A2D00D60149 /* PuzzleDetail.swift in Sources */,
 				001CA8B62B403A63004A5230 /* aoc2023App.swift in Sources */,

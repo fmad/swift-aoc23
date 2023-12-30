@@ -9,11 +9,11 @@ import SwiftUI
 
 @main
 struct aoc2023App: App {
-    private var store = PuzzleStore()
-
+    private var puzzles = testData
+    
     var body: some Scene {
         WindowGroup {
-            ContentView(store: store)
+            ContentView(puzzles: puzzles)
         }
     }
 }

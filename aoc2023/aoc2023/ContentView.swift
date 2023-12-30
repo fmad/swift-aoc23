@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
-    @ObservedObject var store: PuzzleStore
+    var puzzles: [Puzzle]
 
     var body: some View {
         NavigationView {
             List {
-                ForEach(store.puzzles) { item in
+                ForEach(puzzles) { item in
                     PuzzleItem(item: item)
                 }
                 Text("TotalStars = 0").foregroundColor(.secondary)
@@ -24,7 +24,7 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView(store: testStore)
+    ContentView(puzzles: testData)
 }
 
 struct PuzzleItem: View {
